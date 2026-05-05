@@ -1,6 +1,5 @@
-import test from 'node:test';
-import assert from 'node:assert';
-import sum from './sum.js';
+
+const sum = require('./sum.js');
 
   test('debe sumar correctamente', () => {
     assert.strictEqual(sum(10, 5), 15);
